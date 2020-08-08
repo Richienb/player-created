@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "player-created",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Find when a Minecraft player was created.",
+	"repository": "https://github.com/Richienb/player-created.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -11,17 +11,32 @@
 		"index.d.ts"
 	],
 	"engines": {
-		"node": ">=10"
+		"node": "^10.17 || >=12.3"
 	},
 	"scripts": {
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"minecraft",
+		"player",
+		"account",
+		"created",
+		"date",
+		"time"
+	],
+	"dependencies": {
+		"ky": "^0.23.0",
+		"ky-universal": "^0.8.1",
+		"mem": "^6.1.0",
+		"minecraft-player": "^1.0.1",
+		"num-diff": "^1.0.1",
+		"p-do-whilst": "^1.1.0"
+	},
 	"devDependencies": {
 		"ava": "^3.10.1",
 		"eslint-config-richienb": "^0.4.2",
+		"in-range": "^2.0.0",
 		"xo": "^0.32.1"
 	},
 	"xo": {

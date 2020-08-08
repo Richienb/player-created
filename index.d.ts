@@ -1,15 +1,14 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Find when a Minecraft player was created.
+@param username The username to get the creation time for.
 @example
 ```
-const theModule = require("the-module");
+const playerCreated = require("player-created");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+playerCreated("Richienb");
+//=> 2019-01-06T00:00:00.000Z
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function playerCreated(username: string): Promise<Date>
 
-export = theModule
+export = playerCreated

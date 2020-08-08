@@ -1,41 +1,30 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# player-created [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/player-created/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/player-created)
 
-My awesome module.
+Find when a Minecraft player was created.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/player-created.png)](https://npmjs.com/package/player-created)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install player-created
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const playerCreated = require("player-created");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+playerCreated("Richienb");
+//=> 2019-01-06T00:00:00.000Z
 ```
 
 ## API
 
-### theModule(input, options?)
+### playerCreated(username)
 
-#### input
+#### username
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The username to get the creation time for.
