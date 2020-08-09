@@ -1,6 +1,6 @@
 {
 	"name": "player-created",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Find when a Minecraft player was created.",
 	"repository": "https://github.com/Richienb/player-created.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
